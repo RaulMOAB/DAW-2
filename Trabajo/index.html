@@ -12,42 +12,110 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="index">
-  <div class="navbar-container">
-    <nav class="navbar">
-      <header>Apuntes M07</header>
-      <ul>
-        <li>
-          <a href="#"><i class="fa-solid fa-server"><span class="element-text"> Servidor - Cliente</span>
-            </i>
-          </a>
+<body>
+  <header>
+    <div class="container-menu">
+      <div class="menu">
+        <nav>
           <ul>
-            <li>
-              <a href="#"><i class="fa-brands fa-html5">
-                  <span class="element-text"> HTML 5</span></i></a>
+            <li><a href="index.html" id="home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-server"></i>Cliente - Servidor</a>
+              <ul>
+                <li><a href="#"><i class="fa-brands fa-html5"></i>HTML 5</a></li>
+                <li><a href="#"><i class="fa-brands fa-css3-alt"></i>CSS 3</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-js"></i>JavaScript</a></li>
+              </ul>
             </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-square-js"><span class="element-text"> JavaScript</span></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-brands fa-css3-alt"><span class="element-text"> CSS 3</span></i></a>
-            </li>
+            <li><a href="#"><i class="fa-solid fa-layer-group"></i>Stack tecnólogico</a></li>
+            <li><a href="#"><i class="fa-solid fa-bolt"></i>Boot</a></li>
+            <li><a href="#"><i class="fa-solid fa-hard-drive"></i>Partición de discos</a></li>
+            <li><a href="#" id="contact"><i class="fa-solid fa-envelope"></i>Contacto</a></li>
           </ul>
-        </li>
+        </nav>
 
-        <li>
-          <a href="#"><i class="fa-solid fa-layer-group"><span class="element-text"> Lamp</span></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-solid fa-bolt"><span class="element-text"> Boot</span></i></a>
-        </li>
-        <li>
-          <a href="#"><i class="fa-solid fa-hard-drive"><span class="element-text"> Particiones de Disco</span></i></a>
-        </li>
-      </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="main-container">
+      <div class="main-img">
+        <img src="img/client-server-1.png" alt="server" id="img-server">
+      </div>
+      <div class="section-container">
 
-    </nav>
+        <section class="table-section">
+          <table id="lenguages">
+            <tr>
+              <th>Lenguajes Backend</th>
+              <th>Lenguajes Frontend</th>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-php"></i> PHP</td>
+              <td><i class="fa-brands fa-html5"></i> HTML 5</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-java"></i> Java</td>
+              <td><i class="fa-brands fa-css3-alt"></i> CSS 3</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-node"></i> Node.js</td>
+              <td><i class="fa-brands fa-square-js"></i> JavaScript</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-python"></i> Python</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-gem"></i> Ruby</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-rust"></i> Rust</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-golang"></i> Go</td>
+            </tr>
+          </table>
+        </section>
+        <article class="article-section">
+          <h4>¿Cómo se comunican entre ellos?</h4><br>
+          <p> La comunicación entre cliente - servidor es mediante el protocolo
+            <b>HTTP</b>. <br>
+            El cliente manda una petición desde su cliente (navegadores) hacia el servidor y este, envía una respuesta.
+          </p>
+          <br>
+          <p>
+          <h4>¿Qué es HTTP?</h4><br>
+          <em>Hyper Text Transfer Protocol</em> son reglas para
+          transferir en la red. <br>
+          <em>Hyper Text </em>es un texto con Hyper Links.<br>
+          <em>Hyper Link</em> es simplemente un enlace. <br><br>
+          Se pone Hyper delante porque en los años
+          setenta estaba de moda el Hipertexto creado por Tim
+          Barners-Lee en el CERN.<br>
+          Por lo que podemos decir qeu una Web es texto + enlaces.</p>
+        </article>
+      </div>
+    </div>
+  </main>
+  <div class="modal hidden">
+    <header class="contact-header">
+      <button class="close-modal">&times;</button>
+      <span><i class="fa-solid fa-envelope"></i></span>
+    </header>
+
+    <form action="#" class="form-contact">
+      <label for="names">Nombre</label>
+      <input type="text" name="name" id="name">
+      <label for="email">Correo electrónico</label>
+      <input type="email" name="email" id="email">
+      <label for="msg">Escribe tu mensaje</label>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      <input type="submit" value="Enviar" id="send">
+    </form>
+
   </div>
+  </div>
+  <div class="overlay hidden"></div>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
