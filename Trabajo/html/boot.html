@@ -12,101 +12,82 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body >
-    <header> 
-        <div class="container-menu">
-          <div class="menu">
-            <nav>
+  <header> 
+    <div class="container-menu">
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="/index.html" id="home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="/index.html"><i class="fa-solid fa-server"></i>Cliente - Servidor</a>
               <ul>
-                <li><a href="/index.html" id="home"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="/index.html"><i class="fa-solid fa-server"></i>Cliente - Servidor</a>
-                  <ul>
-                    <li><a href="#"><i class="fa-brands fa-html5"></i>HTML 5</a></li>
-                    <li><a href="#"><i class="fa-brands fa-css3-alt"></i>CSS 3</a></li>
-                    <li><a href="#"><i class="fa-brands fa-square-js"></i>JavaScript</a></li>
-                  </ul>
-                </li>
-                <li><a href="#"><i class="fa-solid fa-layer-group"></i>Stack tecnólogico</a></li>
-                <li><a href="html/boot.html"><i class="fa-solid fa-bolt"></i>Boot</a></li>
-                <li><a href="html/particion.html"><i class="fa-solid fa-hard-drive"></i>Partición de discos</a></li>
-                <li><a href="#" id="contact"><i class="fa-solid fa-envelope"></i>Contacto</a></li>
+                <li><a href="#"><i class="fa-brands fa-html5"></i>HTML 5</a></li>
+                <li><a href="#"><i class="fa-brands fa-css3-alt"></i>CSS 3</a></li>
+                <li><a href="#"><i class="fa-brands fa-square-js"></i>JavaScript</a></li>
               </ul>
-            </nav>
-    
-          </div>
-        </div>
-      </header>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-layer-group"></i>Stack tecnólogico</a></li>
+            <li><a href="html/boot.html"><i class="fa-solid fa-bolt"></i>Boot</a></li>
+            <li><a href="html/particion.html"><i class="fa-solid fa-hard-drive"></i>Partición de discos</a></li>
+            <li><a href="#" id="contact"><i class="fa-solid fa-envelope"></i>Contacto</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+  </header>
     <div class="container">
-        <!--Boot-->
-        <!--Bios-->
         <div class="bios">
-            <div >
-                <img src="/img/bios.jpeg" alt="imagen bios" class="imgBios">
-            </div>
-            
-            <div><div class="modal hidden">
-                <header class="contact-header">
-                  <button class="close-modal">&times;</button>
-                  <span><i class="fa-solid fa-envelope"></i></span>
-                </header>
-            
-                <form action="#" class="form-contact">
-                  <label for="names">Nombre</label>
-                  <input type="text" name="name" id="name">
-                  <label for="email">Correo electrónico</label>
-                  <input type="email" name="email" id="email">
-                  <label for="msg">Escribe tu mensaje</label>
-                  <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                  <input type="submit" value="Enviar" id="send">
-                </form>
-            
-              </div>
-              </div>
-                <h4>BIOS</h4>
-                <ol>
-                    <li>BIOS: Basic Input / Output System, inventada por IBM. </li>
-                    <li>Pequeño programa que hace unos test básicos de Hardware al arrancar y le pasa el control al gestor de arranque.</li>
-                    <li>Es muy viejo, se dejó de fabricar por allá los 2010-2011.</li>
-                    <li>Tiene muchas limitaciones. Exige que el S.O esté en un disco con una tabla de particiones en formato MBR (Master Boot Record).</li>
-                    <li>No programable.</li>
-                </ol>
-            </div>       
-        </div>
-        <!--UEFI-->
-        <div class="uefi">
-            <div >
-                <img src="/img/uefi.png" alt="imagen uefi" class="imgUefi">
-            </div>
-            
-            <div>
-                <h4>UEFI</h4>
-                <ol>
-                    <li>Universal EFI = EFI 2.0.</li>
-                    <li>EFI: Extensible(Programable) Firmware Interface.</li>
-                    <li>Sucesor de la BIOS. Es moderno.</li>
-                    <li>Exige que el S.O esté en un disco con tabla de particiones en formato GPT (GUID Partition Table).</li>
-                    <li>Tiene modo de compatibilidad . en su mayoría, BIOS (Legacy).</li>
-                </ol>
-            </div>        
-        </div> 
+          <div >
+              <img src="/img/bios.jpeg" alt="imagen bios" class="imgBios">
+          </div>
+          
+          <div>
+              <h4>BIOS</h4>
+              <ol>
+                  <li>BIOS: Basic Input / Output System, inventada por IBM. </li>
+                  <li>Pequeño programa que hace unos test básicos de Hardware al arrancar y le pasa el control al gestor de arranque.</li>
+                  <li>Es muy viejo, se dejó de fabricar por allá los 2010-2011.</li>
+                  <li>Tiene muchas limitaciones. Exige que el S.O esté en un disco con una tabla de particiones en formato MBR (Master Boot Record).</li>
+                  <li>No programable.</li>
+              </ol>
+          </div>       
+      </div>
+      <!--UEFI-->
+      <div class="uefi">
+          <div >
+              <img src="/img/uefi.png" alt="imagen uefi" class="imgUefi">
+          </div>
+          
+          <div>
+              <h4>UEFI</h4>
+              <ol>
+                  <li>Universal EFI = EFI 2.0.</li>
+                  <li>EFI: Extensible(Programable) Firmware Interface.</li>
+                  <li>Sucesor de la BIOS. Es moderno.</li>
+                  <li>Exige que el S.O esté en un disco con tabla de particiones en formato GPT (GUID Partition Table).</li>
+                  <li>Tiene modo de compatibilidad . en su mayoría, BIOS (Legacy).</li>
+              </ol>
+          </div>        
+      </div>
+
     </div>
     <div class="modal hidden">
-        <header class="contact-header">
-          <button class="close-modal">&times;</button>
-          <span><i class="fa-solid fa-envelope"></i></span>
-        </header>
-    
-        <form action="#" class="form-contact">
-          <label for="names">Nombre</label>
-          <input type="text" name="name" id="name">
-          <label for="email">Correo electrónico</label>
-          <input type="email" name="email" id="email">
-          <label for="msg">Escribe tu mensaje</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          <input type="submit" value="Enviar" id="send">
-        </form>
-    
-      </div>
-      </div>
+      <header class="contact-header">
+        <button class="close-modal">&times;</button>
+        <span><i class="fa-solid fa-envelope"></i></span>
+      </header>
+  
+      <form action="#" class="form-contact">
+        <label for="names">Nombre</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="email" id="email">
+        <label for="msg">Escribe tu mensaje</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar" id="send">
+      </form>
+  
+    </div>
     <div class="overlay hidden"></div>
     <script src="/js/main.js"></script>
 </body>
