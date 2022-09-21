@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+h4{
+    border-left: 6px solid red;
+}
+/*Boot css*/
+.bios, .uefi{
+    display: flex;
+    align-items: center;/*centrar en vertical*/
+}
+.imgBios, .imgUefi{
+    width: 10em;
+    margin: 2em;
+}
+/*Particion css*/
+.particiones, th, td {
+    width: 100%;
+    border: 1px solid black;
+    /*border-collapse: collapse;*/
+}
+th, td{
+    width: 50%;
+}
+.imgMbr, .imgGpt{
+    width: 25em;
+}

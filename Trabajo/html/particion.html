@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particion de discos</title>
+</head>
+<body>
+    <div class="container">
+        <!--Particion de discos-->
+        <table class="particiones">
+            <tr><!--Fila donde van las imgs-->
+                <th>
+                    <img src="/img/mbr.jpg" alt="imagen mbr" class="imgMbr">
+                </th>
+                <th>
+                    <img src="/img/gpt.png" alt="imagen gpt" class="imgGpt"> 
+                </th>
+            </tr>
+
+            <tr><!--Fila donde van los titulos-->
+                <td>
+                    <h4>MBR</h4>
+                </td>
+                <td>
+                    <h4>GPT</h4>
+                </td>
+            </tr>
+
+            <tr><!--Fila donde van las caracteristicas-->
+                <td>
+                    <ul>
+                        <li>4 particiones primarias</li>
+                        <li>La 4ta puede ser extendida, y dentro de esa se pueden crear particiones lógicas.</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>No hay casi limitaciones de particiones</li>
+                        <li>Los WID son estables (Índice de arranque, memoria dónde empiezan las particiones)</li>
+                    </ul>
+                </td>
+        
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
