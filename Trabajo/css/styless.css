@@ -306,7 +306,7 @@ h4 {
 .close-modal:hover {
   color: #233142;
   transform: rotate(90deg);
-  transition: all 1 ease-in-out;
+  transition: all 1 ease-in;
 }
 
 /*FORM*/
