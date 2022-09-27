@@ -1,5 +1,5 @@
 .container{
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -19,6 +19,14 @@ h4{
     width: 10em;
     margin: 2em;
 }
+/*conclusion boot*/
+.grafica-boot{
+    margin: 5%;
+    width: auto;
+    height: 500px;
+}
+
+
 /*Particion css*/
 .particiones, th, td {
     width: 100%;
@@ -28,6 +36,20 @@ h4{
 th, td{
     width: 50%;
 }
-.imgMbr, .imgGpt{
-    width: 25em;
+
+.padingUl{
+    padding: 5%;
 }
+.imgMbr{
+    width: auto;
+    height: 300px;
+    display: block;
+}
+.imgGpt{
+    width: auto;
+    height: 161px;
+    display: block;
+}/*
+.bs1b{
+    border: 1px solid black;
+}*/
