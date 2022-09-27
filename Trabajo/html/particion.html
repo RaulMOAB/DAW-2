@@ -45,41 +45,66 @@
     <div class="container">
         <!--Particion de discos-->
         <table class="particiones">
-            <tr><!--Fila donde van las imgs-->
-                <th>
+          <!--MBR-->
+            <tr>
+                <td>
                     <img src="/img/mbr.jpg" alt="imagen mbr" class="imgMbr">
-                </th>
+                </td>
+            </tr>
+
+            <tr>
                 <th>
-                    <img src="/img/gpt.png" alt="imagen gpt" class="imgGpt"> 
+                    <h4>MBR</h4>
                 </th>
             </tr>
 
-            <tr><!--Fila donde van los titulos-->
+            <tr>
                 <td>
-                    <h4>MBR</h4>
-                </td>
-                <td>
-                    <h4>GPT</h4>
-                </td>
-            </tr>
-
-            <tr><!--Fila donde van las caracteristicas-->
-                <td>
-                    <ul>
+                    <ul class="padingUl">
                         <li>4 particiones primarias</li>
                         <li>La 4ta puede ser extendida, y dentro de esa se pueden crear particiones lógicas.</li>
                     </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>No hay casi limitaciones de particiones</li>
-                        <li>Los WID son estables (Índice de arranque, memoria dónde empiezan las particiones)</li>
-                    </ul>
-                </td>
-        
+                </td> 
+            </tr>
+            <!--GPT-->
+            <tr>
+              <td>
+                <img src="/img/gpt.png" alt="imagen gpt" class="imgGpt"> 
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <h4>GPT</h4>
+            </th>
+            </tr>
+            <tr>
+              <td>
+                <ul class="padingUl">
+                    <li>No hay casi limitaciones de particiones</li>
+                    <li>Los WID son estables (Índice de arranque, memoria dónde empiezan las particiones)</li>
+                </ul>
+            </td>
             </tr>
         </table>
-    </div>
+        <!--
+        <div>
+          <img src="/img/mbr.jpg" alt="imagen mbr" class="imgMbr">
+          <h4>MBR</h4>
+          <ul class="padingUl">
+            <li>4 particiones primarias</li>
+            <li>La 4ta puede ser extendida, y dentro de esa se pueden crear particiones lógicas.</li>
+          </ul>
+        </div>
+
+        <div>
+          <img src="/img/gpt.png" alt="imagen gpt" class="imgGpt">
+          <h4>GPT</h4>
+          <ul class="padingUl">
+            <li>No hay casi limitaciones de particiones</li>
+            <li>Los WID son estables (Índice de arranque, memoria dónde empiezan las particiones)</li>
+          </ul>
+        </div>
+    </div>mbr-->
     <div class="modal hidden">
         <header class="contact-header">
           <button class="close-modal">&times;</button>
