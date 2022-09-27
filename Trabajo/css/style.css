@@ -23,7 +23,14 @@ h4{
 .grafica-boot{
     margin: 5%;
     width: auto;
-    height: 500px;
+    height: 475px;
+}
+.ul_vulnerablidad{
+    margin: 5%;
+    list-style-type: square;
+}
+.ul_vulnerablidad > li{
+    margin: 5px;
 }
 
 
