@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styless.css" />
     <link rel="stylesheet" href="/css/javascript.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>JavasCript</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>¿Qué es CSS?</title>
 </head>
 <body>
     <header>
@@ -21,8 +21,8 @@
                 <li><a href="/index.html"><i class="fa-brands fa-chrome"></i>Stack Cliente</a>
                   <ul>
                     <li><a href="/html/HTML5.html"><i class="fa-brands fa-html5"></i>HTML 5</a></li>
-                    <li><a href="#"><i class="fa-brands fa-css3-alt"></i>CSS 3</a></li>
-                    <li><a href="/html/jascript.html"><i class="fa-brands fa-square-js"></i>JavaScript</a></li>
+                    <li><a href="/html/css.html"><i class="fa-brands fa-css3-alt"></i>CSS 3</a></li>
+                    <li><a href="/html/javascript.html"><i class="fa-brands fa-square-js"></i>JavaScript</a></li>
                   </ul>
                 </li>
                 <li><a href="/html/satck.html"><i class="fa-solid fa-layer-group"></i>Stack Servidor</a>
@@ -43,26 +43,25 @@
         </div>
     </header>
     <div class="header">
-        <h1> ¿Qué es JavaScript?</h1>
-        <i class="fa-brands fa-square-js"></i>
-        <h2>El lenguaje de las Webs</h2>
+        <h1> ¿Qué es CSS?</h1>
+        <i class="fa-brands fa-css3-alt" id="css-icon"></i>
+        <h2 class="css-title">El aspecto visual de tu Web</h2>
     </div>
     <main class="content-container">
-        <p>Cualquier página web tiene una estructura en <b>HTML</b> y su hoja de estilos <b>CSS</b></p>
-        <p>Si utilizarámos exclusivamente HTML y CSS la página sería estática por lo que el lenguaje de programación Javascript nos ofrece un abanico aún mayor para implementar funcionalidades a nuestra web y así, hacerla dinámica</p>       
+        <p>El CSS se trata de un lenguaje que da estilo a tus págians web.</p>
+        <p>Las siglas CSS <em>(Cascading Style Sheets)</em> quiere ndecir hoja de estilo en cascada. <br>
+        Se le llama en cascada porqeu procesa el codigo de arriba hacia abajo</p>       
             <div class="img-container">
-                <img src="/img/javascript.jpg" alt="javascript" width="800" height="400" id="js-img">
-            </div>        
+                <img src="/img/que-es-css.png" alt="fundamentos" width="800" height="400" id="css-img">
+            </div>    
+        <p>
+            <h2 class="subtitle">¿Qué diferencia tiene CSS 3 del resto?</h2>
+            <p>La aparición del felxbox y el grid, los cuales ayudan a que las págians sean <b>responsive</b>, es decir, se adapten a cualqueir tamaño de pantalla </p>
+            <div class="img-html-container">
+                <img src="/img/css.png" alt="etiquetas"  id="css-tag-img">
+            </div>
+        </p>       
     </main>
-
-
-
-
-
-
-
-
-    
     <div class="modal hidden">
         <header class="contact-header">
           <button class="close-modal">&times;</button>
@@ -79,7 +78,8 @@
           <input type="submit" value="Enviar" id="send">
         </form>
       </div>
-    <div class="overlay hidden"></div>
-    <script src="/js/main.js"></script>
+      
+      <div class="overlay hidden"></div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
