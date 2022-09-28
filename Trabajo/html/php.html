@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styless.css" />
+    <link rel="stylesheet" href="/css/php.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container-menu">
+          <div class="menu">
+            <nav>
+              <ul>
+                <li><a href="/index.html" id="home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="/index.html"><i class="fa-brands fa-chrome"></i>Stack Cliente</a>
+                  <ul>
+                    <li><a href="/html/HTML5.html"><i class="fa-brands fa-html5"></i>HTML 5</a></li>
+                    <li><a href="#"><i class="fa-brands fa-css3-alt"></i>CSS 3</a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-js"></i>JavaScript</a></li>
+                  </ul>
+                </li>
+                <li><a href="/html/satck.html"><i class="fa-solid fa-layer-group"></i>Stack Servidor</a>
+                  <ul>
+                    <li><a href="/html/linux.html"><i class="fa-brands fa-linux"></i>Linux</a></li>
+                    <li><a href="/html/apache.html"><i class="fa-solid fa-server"></i>Apache</a></li>
+                    <li><a href="/html/mysql.html"><i class="fa-solid fa-database"></i>MySQL</a></li>
+                    <li><a href="/html/php.html"><i class="fa-brands fa-php"></i>PHP</a></li>
+                  </ul>
+                </li>
+                <li><a href="html/boot.html"><i class="fa-solid fa-bolt"></i>Boot</a></li>
+                <li><a href="html/particion.html"><i class="fa-solid fa-hard-drive"></i>Partición de discos</a></li>
+                <li><a href="#" id="contact"><i class="fa-solid fa-envelope"></i>Contacto</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    <div class="titulo">
+        <h1>PHP</h1>
+    </div>
+    <main class="texto">
+        <h4>¿Que es PHP?</h4>
+        <p>
+            PHP es un lenguaje de programación destinado a desarrollar aplicaciones para la web y crear páginas web,
+            favoreciendo la conexión entre los servidores y la interfaz de usuario. 
+        </p>
+        <h4>Vulnerabilidades de PHP</h4>
+        <br>
+        <p>Este es un grafico que presenta los distintos ataques sufridos a PHP debido a su popularidad</p>
+        <img src="/img/Screenshot from 2022-09-28 17-15-59.png" class="php_logo">
+        <p><b>DoS:</b> es un tipo de ciberataque que intenta hacer que un sitio web o recurso de red no esté disponible
+             colapsándolo con tráfico malintencionado para que no pueda funcionar correctamente.</p>
+        <p>
+            <b>Code Execution: </b>Es una vulnerabilidad que nos permite ejecutar codigo PHP en el servidor.
+            se debe a un fallo en la programacion de la pagina al usar funciones como eval()
+        </p>
+        <p>
+            <b>Overflow: </b>Un buffer overflow (o desborde de memoria) se lleva a cabo cuando un programa informático excede el uso de cantidad de memoria asignado 
+            por el sistema operativo, escribiendo en el bloque de memoria contiguo
+        </p>
+        <p>
+            <b>Memory Corruption: </b>La corrupción de memoria ocurre en un programa cuando los contenido de una dirección de memoria 
+            involuntariamente se modifican debido a errores de programación; esto se conoce como violación de la seguridad de memoria.
+        </p>
+    </main>
+</body>
+</html>
