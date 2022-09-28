@@ -12,8 +12,10 @@
    
 }
 .container-table{
+  position: relative;
   display: inline-flex;
   flex-direction: row;
+  left: 20em;
 
 }
 
@@ -68,11 +70,10 @@
   background-color: #84a98c;
 }
 .titulo{
-    background-color: #84a98c;
-   margin: auto;
-   
-   text-align: center;
-    border-radius: 10px;
+  background-color: #84a98c;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
 }
 /*li{
   text-align: left;

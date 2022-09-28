@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+body{
+  background-color: #eee;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:1.5rem 0;
+}
+.titulo > h1{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 5px 5px 3px #0009;
+    background-color: #455d7a;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  width: 70%;
+  font-size: 1.5em;
+  line-height: 35px;
+}
+
+.img_linux{
+  height: 254px;
+  width: 250px;
+}
+.lista_debian{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.titulo_lista_debian{
+  position: relative;
+  right: 20em;
+}
+.lista_redhat{
+  display: inline;
+  padding-right: 10em;
+}
