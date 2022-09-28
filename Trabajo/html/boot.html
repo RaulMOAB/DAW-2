@@ -43,22 +43,50 @@
     </div>
   </header>
     <div class="container">
-        <div class="bios">
-          <div >
-              <img src="/img/bios.jpeg" alt="imagen bios" class="imgBios">
-          </div>
-          
-          <div>
-              <h4>BIOS</h4>
-              <ol>
-                  <li>BIOS: Basic Input / Output System, inventada por IBM. </li>
-                  <li>Pequeño programa que hace unos test básicos de Hardware al arrancar y le pasa el control al gestor de arranque.</li>
-                  <li>Es muy viejo, se dejó de fabricar por allá los 2010-2011.</li>
-                  <li>Tiene muchas limitaciones. Exige que el S.O esté en un disco con una tabla de particiones en formato MBR (Master Boot Record).</li>
-                  <li>No programable.</li>
-              </ol>
-          </div>       
+      <!--FirmWare-->
+      <div class="firmware">
+        <div >
+            <img src="../img/firmware.jpeg" alt="imagen firmware" class="imgfirmware">
+        </div>
+        
+        <div>
+            <h4>Firmware</h4>
+            <ol class="ol">
+              <li>Firmware es un software que maneja físicamente al hardware.</li>
+              <li>
+                La BIOS de una computadora es un firmware cuyo propósito es activar una máquina desde su encendido 
+                y preparar el entorno para cargar un sistema operativo en la memoria RAM y disco duro.
+              </li>
+              <li>
+                Firmware programa informático que establece la lógica de más bajo nivel que controla 
+                los circuitos electrónicos de un dispositivo de cualquier tipo. 
+              </li>
+              <li>
+                Es el software que tiene directa interacción con el hardware, siendo así el encargado de controlarlo para ejecutar 
+                correctamente las instrucciones externas.
+              </li>
+            </ol>
+        </div>       
       </div>
+
+      <!--BIOS-->
+      <div class="bios">
+        <div >
+            <img src="/img/bios.jpeg" alt="imagen bios" class="imgBios">
+        </div>
+        
+        <div>
+            <h4>BIOS</h4>
+            <ol class="ol">
+                <li>BIOS: Basic Input / Output System, inventada por IBM. </li>
+                <li>Pequeño programa que hace unos test básicos de Hardware al arrancar y le pasa el control al gestor de arranque.</li>
+                <li>Es muy viejo, se dejó de fabricar por allá los 2010-2011.</li>
+                <li>Tiene muchas limitaciones. Exige que el S.O esté en un disco con una tabla de particiones en formato MBR (Master Boot Record).</li>
+                <li>No programable.</li>
+            </ol>
+        </div>       
+      </div>
+
       <!--UEFI-->
       <div class="uefi">
           <div >
@@ -67,7 +95,7 @@
           
           <div>
               <h4>UEFI</h4>
-              <ol>
+              <ol class="ol">
                   <li>Universal EFI = EFI 2.0.</li>
                   <li>EFI: Extensible(Programable) Firmware Interface.</li>
                   <li>Sucesor de la BIOS. Es moderno.</li>
@@ -78,41 +106,15 @@
       </div>
 
       <!--Conclusion-->
-      <div>
+      <div class="conclusion">
         <p>En <b>conclusión</b> siempre arrancaremos en modo UEFI y los discos tendrán tablas de partición GPT. P
           ara que arranque siempre en modo UEFI hay que habilitarlo en la UEFI, también hay que desactivar el Secure Boot 
           para poder arrancar ISO diferentes a Windows, Microsoft firma sus SO con un número hash y cada So tiene una firma distinta, 
           por ello desactivando está opción podemos arrancar cualquier SO</p>
       </div>
-      <!--
-      <img src="../img/graficas.png" alt="graficas" class="grafica-boot">
       
-      <div>
-        <h4>Vulnerability Trends Over Time</h4>
-        <ul class="ul_vulnerablidad">
-          <li><b>DoS:</b> denegación de servicio (DoS) es un ataque destinado a cerrar una máquina o red, 
-            haciéndola inaccesible para los usuarios previstos. Los ataques DoS logran esto inundando el objetivo con tráfico 
-            o enviándole información que desencadena un bloqueo.
-          </li>
-          <li><b>Code Execution:</b> Una vulnerabilidad de ejecución de código arbitrario es un fallo de seguridad en el software 
-            o hardware que permite la ejecución de código arbitrario. Un programa diseñado para explotar dicha vulnerabilidad 
-            se denomina exploit de ejecución de código arbitrario.
-          </li>
-          <li><b>Overflow:</b> afectan a las aplicaciones escritas en muchos lenguajes de programación, 
-            y el nombre describe cualquier situación en la que el software intenta mover datos de una ubicación 
-            en la memoria a un búfer de longitud fija asignado en la pila, que es demasiado pequeño para contener los datos.
-          </li>
-          <li><b>Memory Corruption:</b> puede producirse en un sistema informático cuando se altera su memoria sin una asignación explícita. 
-            El contenido de una ubicación de memoria se modifica debido a errores de programación que permiten a los atacantes 
-            ejecutar un código arbitrario.
-          </li>
-          <li><b>Sql Injection:</b> tipo de vulnerabilidad en el código de los sitios y aplicaciones web que permite a los atacantes 
-            apropiarse de los procesos de back-end y acceder, extraer y eliminar información confidencial de sus bases de datos.
-          </li>
-        </ul>
-      </div>
-      -->
     </div>
+
     <div class="modal hidden">
       <header class="contact-header">
         <button class="close-modal">&times;</button>

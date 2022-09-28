@@ -10,29 +10,24 @@ h4{
 }
 */  
 /*Boot css*/
-.bios, .uefi{
+.bios, .uefi, .firmware{
     display: flex;
-        
     align-items: center;/*centrar en vertical*/
 }
-.imgBios, .imgUefi{
+.firmware{
+    margin-top: 5%;
+}
+.imgBios, .imgUefi, .imgfirmware{
     width: 10em;
     margin: 2em;
 }
+.ol{
+    margin: 3%;
+}
 /*conclusion boot*/
-.grafica-boot{
+.conclusion{
     margin: 5%;
-    width: auto;
-    height: 475px;
 }
-.ul_vulnerablidad{
-    margin: 5%;
-    list-style-type: square;
-}
-.ul_vulnerablidad > li{
-    margin: 5px;
-}
-
 
 /*Particion css*/
 .particiones, th, td {
